@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cypress run",
+    "test": "cypress run --browser chrome",
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
     "cy:ci": "docker exec frontend cypress run"
